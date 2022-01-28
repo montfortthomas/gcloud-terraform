@@ -1,0 +1,20 @@
+# terraform import google_compute_instance.t1 projects/ford-data-fusion-project/zones/asia-south1-b/instances/mv-teltonikagps-data-09092054-0wlp-harness-j048
+# terraform import google_compute_instance.t2 projects/ford-data-fusion-project/zones/asia-south1-b/instances/mv-teltonikaio-data-09100024-j81g-harness-5rwb 
+# terraform import google_compute_disk.s0 projects/ford-data-fusion-project/zones/asia-south1-b/disks/mv-teltonikagps-data-09092054-0wlp-harness-disk-0
+# terraform import google_compute_disk.s1 projects/ford-data-fusion-project/zones/asia-south1-b/disks/mv-teltonikagps-data-09092054-0wlp-harness-disk-1
+# terraform import google_compute_disk.s2 projects/ford-data-fusion-project/zones/asia-south1-b/disks/mv-teltonikagps-data-09092054-0wlp-harness-disk-2 
+# terraform import google_compute_disk.s3 projects/ford-data-fusion-project/zones/asia-south1-b/disks/mv-teltonikagps-data-09092054-0wlp-harness-j048
+# terraform import google_compute_disk.s4 projects/ford-data-fusion-project/zones/asia-south1-b/disks/mv-teltonikaio-data-09100024-j81g-harness-5rwb
+# terraform import google_compute_disk.s5 projects/ford-data-fusion-project/zones/asia-south1-b/disks/mv-teltonikaio-data-09100024-j81g-harness-disk-0 
+
+# terraform import google_storage_bucket.s0   dataproc-temp-au-southeast1-398013698563-feyyosvw 
+# terraform import google_storage_bucket.s1   dataproc-staging-au-southeast1-398013698563-y4s02r3q  
+# terraform import google_storage_bucket.s2   edpms_dev_storage 
+# terraform import google_storage_bucket.s3   review_buck 
+# terraform import google_storage_bucket.s4   gcf-sources-398013698563-us-central1  
+# terraform import google_storage_bucket.s5   us.artifacts.ford-data-fusion-project.appspot.com  
+# terraform import google_storage_bucket.s6   teltonikapoc  
+# terraform import google_storage_bucket.s7   ford-data-fusion-project.appspot.com  
+# terraform import google_storage_bucket.s8   staging.ford-data-fusion-project.appspot.com  
+# terraform import google_storage_bucket.s9   gcf-sources-398013698563-asia-south1   
+# terraform import google_storage_bucket.s10  asia.artifacts.ford-data-fusion-project.appspot.com  
