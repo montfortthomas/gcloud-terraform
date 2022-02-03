@@ -1,2 +1,2 @@
-bucket   = "data_fusion_bucket"
-instance = "instance"
+bucket   = "ford_datamigration_spark_bucket"
+instance = "ford-datamigration-spark"

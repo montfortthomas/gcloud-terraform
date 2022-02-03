@@ -1,4 +1,4 @@
 provider "google" {
-  project     = "ford-data-fusion-project"
-  region      = "asia-south1-b"
+  project     = "Ford-Datamigration-Spark"
+  region      = "us-central1-f"
 }
