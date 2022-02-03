@@ -1,1 +1,2 @@
-bucket = "data_fusion"
+bucket = "data_fusion_bucket"
+instance = "instance"

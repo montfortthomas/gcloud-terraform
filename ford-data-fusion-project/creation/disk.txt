@@ -1,0 +1,84 @@
+# google_compute_disk.s0:
+resource "google_compute_disk" "s0" {
+    description               = "Data disk created for Dataflow job: 2021-09-09_20_54_49-11272234845275015542"
+    image                     = "https://www.googleapis.com/compute/v1/projects/dataflow-service-producer-prod/global/images/streaming-data-disk-base-image"
+    labels                    = {}
+    name                      = "mv-teltonikagps-data-09092054-0wlp-harness-disk-0"
+    physical_block_size_bytes = 4096
+    project                   = "ford-data-fusion-project"
+    provisioned_iops          = 0
+    size                      = 400
+    type                      = "pd-standard"
+    zone                      = "asia-south1-b"
+}
+
+# google_compute_disk.s1:
+resource "google_compute_disk" "s1" {
+    description               = "Data disk created for Dataflow job: 2021-09-09_20_54_49-11272234845275015542"
+    image                     = "https://www.googleapis.com/compute/v1/projects/dataflow-service-producer-prod/global/images/streaming-data-disk-base-image"
+    labels                    = {}
+    name                      = "mv-teltonikagps-data-09092054-0wlp-harness-disk-1"
+    physical_block_size_bytes = 4096
+    project                   = "ford-data-fusion-project"
+    provisioned_iops          = 0
+    size                      = 400
+    type                      = "pd-standard"
+    zone                      = "asia-south1-b"
+}
+
+# google_compute_disk.s2:
+resource "google_compute_disk" "s2" {
+    description               = "Data disk created for Dataflow job: 2021-09-09_20_54_49-11272234845275015542"
+    image                     = "https://www.googleapis.com/compute/v1/projects/dataflow-service-producer-prod/global/images/streaming-data-disk-base-image"
+    labels                    = {}
+    last_attach_timestamp     = "2021-09-09T20:57:45.156-07:00"
+    name                      = "mv-teltonikagps-data-09092054-0wlp-harness-disk-2"
+    physical_block_size_bytes = 4096
+    project                   = "ford-data-fusion-project"
+    provisioned_iops          = 0
+    size                      = 400
+    type                      = "pd-standard"
+    zone                      = "asia-south1-b"
+
+}
+
+
+# google_compute_disk.s3:
+resource "google_compute_disk" "s3" {
+    image                     = "https://www.googleapis.com/compute/v1/projects/dataflow-service-producer-prod/global/images/dataflow-dataflow-owned-resource-20210830-02-rc01"
+    labels                    = {}
+    name                      = "mv-teltonikagps-data-09092054-0wlp-harness-j048"
+    physical_block_size_bytes = 4096
+    project                   = "ford-data-fusion-project"
+    provisioned_iops          = 0
+    size                      = 30
+    type                      = "pd-standard"
+    zone                      = "asia-south1-b"
+
+}
+
+# google_compute_disk.s4:
+resource "google_compute_disk" "s4" {
+    image                     = "https://www.googleapis.com/compute/v1/projects/dataflow-service-producer-prod/global/images/dataflow-dataflow-owned-resource-20210830-02-rc01"
+    labels                    = {}
+    name                      = "mv-teltonikaio-data-09100024-j81g-harness-5rwb"
+    physical_block_size_bytes = 4096
+    project                   = "ford-data-fusion-project"
+    provisioned_iops          = 0
+    size                      = 30
+    type                      = "pd-standard"
+    zone                      = "asia-south1-b"
+}
+
+# google_compute_disk.s5:
+resource "google_compute_disk" "s5" {
+    image                     = "https://www.googleapis.com/compute/v1/projects/dataflow-service-producer-prod/global/images/streaming-data-disk-base-image"
+    labels                    = {}
+    name                      = "mv-teltonikaio-data-09100024-j81g-harness-disk-0"
+    physical_block_size_bytes = 4096
+    project                   = "ford-data-fusion-project"
+    provisioned_iops          = 0
+    size                      = 400
+    type                      = "pd-standard"
+    zone                      = "asia-south1-b"
+}
