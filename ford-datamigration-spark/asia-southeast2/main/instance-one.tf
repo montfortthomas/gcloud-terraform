@@ -13,6 +13,9 @@ resource "google_compute_instance" "t1" {
         "goog-dm" = "aikido-spark"
     }
     machine_type         = "e2-standard-2"
+    zone                 = "asia-southeast2-a"
+    project              = "ford-datamigration-spark"
+
     metadata             = {
         "google-logging-enable"    = "0"
         "google-monitoring-enable" = "0"
@@ -27,7 +30,6 @@ resource "google_compute_instance" "t1" {
     }
     metadata_fingerprint = "pJn_ZiuIDxk="
     name                 = "aikido-spark-arbiters-vm-0"
-    project              = "ford-datamigration-spark"
     resource_policies    = []
     self_link            = "https://www.googleapis.com/compute/v1/projects/ford-datamigration-spark/zones/asia-southeast2-a/instances/aikido-spark-arbiters-vm-0"
     tags                 = [
@@ -35,7 +37,6 @@ resource "google_compute_instance" "t1" {
         "aikido-spark-deployment",
     ]
     tags_fingerprint     = "IPD4zE_AZwI="
-    zone                 = "asia-southeast2-a"
 
     boot_disk {
         auto_delete = true

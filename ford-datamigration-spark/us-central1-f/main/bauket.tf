@@ -12,7 +12,6 @@ resource "google_storage_bucket" "s0" {
     storage_class               = "STANDARD"
     uniform_bucket_level_access = false
     url                         = "gs://dataflow-staging-us-central1-2eddbe812a42a61984f8caa9d617380b"
-
     timeouts {}
 }
 
